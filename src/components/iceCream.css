@@ -1,0 +1,27 @@
+.iceCream {
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: darksalmon;
+}
+  
+.iceCream .Message {
+    padding:60px;
+    background-color: rgba(5, 25, 80, 0.4);
+    color: pink;
+    text-transform: uppercase;
+    border-radius:30px;
+}
+  
+.iceCream .message h1 {
+text-align: center;
+color: white;
+}
+
+.iceCream img {
+    max-height: 300px;
+}

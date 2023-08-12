@@ -1,0 +1,35 @@
+
+.VendingMachine {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: bisque;
+
+}
+
+.VendingMachine .Message {
+  width: 50%;
+  padding: 1px;
+  color:blueviolet
+}
+
+a {
+  color: darkred;
+  text-decoration:none ;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.VendingMachine-image {
+  order: 1;
+}
+
+.VendingMachine-image img {
+  max-height: 500px;
+}
